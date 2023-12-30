@@ -1,0 +1,87 @@
+
+html {
+    font-family: 'Pacifico', cursive;
+    font-size: 1rem;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-image: url(../Img/bg.jpg);
+    color: #f2f3f4;
+}
+
+.invite-text {
+    text-align: center;
+    font-size: 1.4rem;
+    color:black;
+    background: url(../Img/paperBg.jpg);
+    border-radius: 10px;
+    max-width: 96%;
+}
+
+.receiver-name {
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.text-adress {
+    color: red;
+}
+
+.text-date {
+    color: blue;
+}
+
+.text-time {
+    color: forestgreen;
+}
+
+.main-div__text {
+    text-align: center;
+    max-width: 80%;
+}
+
+.img__invite {
+    max-width: 96%;
+    margin-bottom: 15px;
+}
+
+.img__prog {
+    max-width: 96%;
+}
+
+.img__powered {
+    margin-top: 50px;
+    max-width: 200px;
+}
+
+@media only screen and (min-width: 990px) {
+    html {
+        font-size: 23px;
+    }
+    
+    .main-div {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .invite-text {
+        display:none;
+    }
+
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .img__invite {
+        max-width: 1200px;
+    }
+
+    html {
+        font-size: 25px;
+    }
+}
